@@ -1,0 +1,31 @@
+.hero-unit {
+    background: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+
+    min-height: 100vh;
+    padding: 50px 0;
+
+    .hero-unit-subheading {
+        color: #437cf7;
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin-bottom: 45px;
+    }
+}
+
+@media only screen and (max-width: 576px)
+{
+    .hero-unit{
+        text-align: center;
+
+        .hero-unit-heading{
+            font-size: 30px;
+        }
+        .hero-unit-subheading{
+            font-size: 14px;
+        }
+    }
+}
